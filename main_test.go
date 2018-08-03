@@ -1,6 +1,8 @@
 package main
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestAddOneNumber(t *testing.T) {
 	actualResult := Add(9)
